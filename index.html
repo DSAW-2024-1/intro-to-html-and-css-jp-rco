@@ -12,19 +12,97 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    p {
+    margin-left: 25px;
+    margin-top:0;
+    margin-bottom:0;
+    margin-right: 20px;
+    }
+
+    h1{
+      margin-left: 25px;
+      font-size: xx-large;
+    }
+
+    li{
+      margin-left: 25px;
+      margin-right: 30px;
+    }
+    
+    .Preparation{
+      margin-left: 25px;
+      color: #8b3d5d; 
+      
+    }
+
+    #time{
+      margin-left: 25px;
+      background-color: #fff6fc;
+      width: 500px;
+      border-radius: 10%;
+    }
+
+    .Ingredients{
+      margin-left: 25px;
+
+
+    }
+    
+    .Instructions{
+      margin-left: 25px;
+
+    }
+
+    .Nutrition{
+      margin-bottom:0;
+      margin-left: 25px;
+
+    }
+
+    table{
+      margin-left: 25px;
+       font-size: x-large; border-color: white;
+    }
+
+    body{
+      border-bottom: 100px solid #f3e5d8;
+      border-top: 100px solid #f3e5d8 ;
+      border-right: 500px solid #f3e5d8;
+      border-left:500px solid #f3e5d8 ;
+      font-style:courier;
+    } 
+
+    .Omelette{
+      margin-top: 50px;
+      margin-left: 25px;
+      width: 600px;
+      border-radius: 10%;
+    }
+
+    h2{
+      color: #8c4e37;
+    }
+
+    span{
+      color: #8c4e37;
+    }
+
+
+
   </style>
 </head>
 <body>
-
-  <img src = "/assets/images/image-omelette.jpeg" alt="Omelette con distintas verduras">
+  
+  <img class="Omelette" src = "/assets/images/image-omelette.jpeg" alt="Omelette con distintas verduras">
   
 
   <h1>Simple Omelette Recipe</h1> 
+  
 
- <p style="margin-top:0; margin-bottom:0;"> An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs</p>
- <p style="margin-top:0; margin-bottom:0;"> cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+ <p> An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs</p>
+ <p> cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
 
-  <ul> <h2> <b style= "color: blueviolet; ">Preparation time </b></h2>
+  <ul id="time"> <h2> <b class="Preparation">Preparation time </b></h2>
     
       <li><b>Approximately:</b> 10 minutes</li>
       <li><b>Preparation:</b> 5 minutes</li>
@@ -32,7 +110,7 @@
 
   </ul>
 
-   <h2> <b style= "color:coral; font-size:xx-large; ">Ingredients</b></h2>
+   <h2> <b class = "Ingredients">Ingredients</b></h2>
    
    <ul>
     <li>2-3 large eggs</li>
@@ -44,41 +122,42 @@
 
   <hr>
 
-  <h2> <b style= "color:coral; font-size:xx-large; ">Instructions</b></h2>
+  <h2> <b class = "Instructions">Instructions</b></h2>
   <ol>
-  <li>Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+  <li><b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
   You can add a tablespoon of water or milk for a fluffier texture.</li>
 
-  <li>Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.</li>
+  <li><b>Heat the pan:</b> Place a non-stick frying pan over medium heat and add butter or oil.</li>
 
-  <li>Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+  <li><b>Cook the omelette:</b> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
   the eggs evenly coat the surface.</li>
 
-  <li>Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the 
+  <li><b>Add fillings (optional):</b> When the eggs begin to set at the edges but are still slightly runny in the 
   middle, sprinkle your chosen fillings over one half of the omelette.</li>
 
-  <li>Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the 
+  <li><b>Fold and serve:</b> As the omelette continues to cook, carefully lift one edge and fold it over the 
   fillings. Let it cook for another minute, then slide it onto a plate.</li>
  
-  <li>Enjoy: Serve hot, with additional salt and pepper if needed.</li>
+  <li><b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.</li>
   </ol>
 <hr>
   
-<h2> <b style="color: darkgoldenrod; font-size: xx-large;"> Nutrition</h2> </b>
+<h2> <b class="Nutrition"> Nutrition</h2> </b>
 
   <p>The table below shows nutritional values per serving without the additional fillings.</p>
   
 
-  <TABLE BORDER WIDTH="50%"; style="font-size: x-large; border-color: white;">
-    <TR><TD>Calories</TD><TD>277kcal</TD>
+  <TABLE BORDER WIDTH="50%";>
+    <TR><TD>Calories</TD><TD><span><b>277kcal</b></span></TD>
     </TR>
-    <TR><TD>Carbs</TD><TD>0g</TD>
+    <TR><TD>Carbs</TD><TD><span><b>0g</b></span></TD>
     </TR>
-    <TR><TD>Protein</TD><TD>20g</TD>
+    <TR><TD>Protein</TD><TD><span><b>20g</b></span></TD>
     </TR>
-    <TR><TD>Fat</TD><TD>22g</TD>
+    <TR><TD>Fat</TD><TD><span><b>22g</b></span></TD>
     </TR>
   </TABLE>
+
 
   <hr>
    
